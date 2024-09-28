@@ -1,0 +1,1273 @@
+{
+  "symbol": "G10L",
+  "title": "SPEECH ANALYSIS TECHNIQUES OR SPEECH SYNTHESIS SPEECH RECOGNITION SPEECH OR VOICE PROCESSING TECHNIQUES SPEECH OR AUDIO CODING OR DECODING",
+  "children": [
+    {
+      "symbol": "G10L13/00",
+      "title": "",
+      "children": [
+        {
+          "symbol": "G10L13/00",
+          "title": "Speech synthesis Text to speech systems",
+          "children": [
+            {
+              "symbol": "G10L13/02",
+              "title": "Methods for producing synthetic speech Speech synthesisers",
+              "children": [
+                {
+                  "symbol": "G10L2013/021",
+                  "title": "Overlap-add techniques",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L13/027",
+                  "title": "Concept to speech synthesisers Generation of natural phrases from machine-based concepts",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L13/033",
+                  "title": "Voice editing, e.g. manipulating the voice of the synthesiser",
+                  "children": [
+                    {
+                      "symbol": "G10L13/0335",
+                      "title": "Pitch control",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L13/04",
+                  "title": "Details of speech synthesis systems, e.g. synthesiser structure or memory management",
+                  "children": [
+                    {
+                      "symbol": "G10L13/047",
+                      "title": "Architecture of speech synthesisers",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L13/06",
+              "title": "Elementary speech units used in speech synthesisers Concatenation rules",
+              "children": [
+                {
+                  "symbol": "G10L13/07",
+                  "title": "Concatenation rules",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L13/08",
+              "title": "Text analysis or generation of parameters for speech synthesis out of text, e.g. grapheme to phoneme translation, prosody generation or stress or intonation determination",
+              "children": [
+                {
+                  "symbol": "G10L2013/083",
+                  "title": "Special characters, e.g. punctuation marks",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L13/086",
+                  "title": "Detection of language",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L13/10",
+                  "title": "Prosody rules derived from text Stress or intonation",
+                  "children": [
+                    {
+                      "symbol": "G10L2013/105",
+                      "title": "Duration",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": "G10L15/00",
+          "title": "Speech recognition",
+          "children": [
+            {
+              "symbol": "G10L15/005",
+              "title": "Language recognition",
+              "children": []
+            },
+            {
+              "symbol": "G10L15/01",
+              "title": "Assessment or evaluation of speech recognition systems",
+              "children": []
+            },
+            {
+              "symbol": "G10L15/02",
+              "title": "Feature extraction for speech recognition Selection of recognition unit",
+              "children": [
+                {
+                  "symbol": "G10L2015/022",
+                  "title": "Demisyllables, biphones or triphones being the recognition units",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/025",
+                  "title": "Phonemes, fenemes or fenones being the recognition units",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/027",
+                  "title": "Syllables being the recognition units",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/04",
+              "title": "Segmentation Word boundary detection",
+              "children": [
+                {
+                  "symbol": "G10L15/05",
+                  "title": "Word boundary detection",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/06",
+              "title": "Creation of reference templates Training of speech recognition systems, e.g. adaptation to the characteristics of the speaker's voice",
+              "children": [
+                {
+                  "symbol": "G10L15/063",
+                  "title": "Training",
+                  "children": [
+                    {
+                      "symbol": "G10L2015/0631",
+                      "title": "Creating reference templates; Clustering",
+                      "children": [
+                        {
+                          "symbol": "G10L2015/0633",
+                          "title": "using lexical or orthographic knowledge sources",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": "G10L2015/0635",
+                      "title": "updating or merging of old and new templates; Mean values; Weighting",
+                      "children": [
+                        {
+                          "symbol": "G10L2015/0636",
+                          "title": "Threshold criteria for the updating",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": "G10L2015/0638",
+                      "title": "Interactive procedures",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L15/065",
+                  "title": "Adaptation",
+                  "children": [
+                    {
+                      "symbol": "G10L15/07",
+                      "title": "to the speaker",
+                      "children": [
+                        {
+                          "symbol": "G10L15/075",
+                          "title": "supervised, i.e. under machine guidance",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/08",
+              "title": "Speech classification or search",
+              "children": [
+                {
+                  "symbol": "G10L2015/081",
+                  "title": "Search algorithms, e.g. Baum-Welch or Viterbi",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/083",
+                  "title": "Recognition networks",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/085",
+                  "title": "Methods for reducing search complexity, pruning",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/086",
+                  "title": "Recognition of spelled words",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/088",
+                  "title": "Word spotting",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/10",
+                  "title": "using distance or distortion measures between unknown speech and reference templates",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/12",
+                  "title": "using dynamic programming techniques, e.g. dynamic time warping [DTW]",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/14",
+                  "title": "using statistical models, e.g. Hidden Markov Models [HMMs]",
+                  "children": [
+                    {
+                      "symbol": "G10L15/142",
+                      "title": "Hidden Markov Models [HMMs]",
+                      "children": [
+                        {
+                          "symbol": "G10L15/144",
+                          "title": "Training of HMMs",
+                          "children": [
+                            {
+                              "symbol": "G10L15/146",
+                              "title": "with insufficient amount of training data, e.g. state sharing, tying, deleted interpolation",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "symbol": "G10L15/148",
+                          "title": "Duration modelling in HMMs, e.g. semi HMM, segmental models or transition probabilities",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L15/16",
+                  "title": "using artificial neural networks",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/18",
+                  "title": "using natural language modelling",
+                  "children": [
+                    {
+                      "symbol": "G10L15/1807",
+                      "title": "using prosody or stress",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L15/1815",
+                      "title": "Semantic context, e.g. disambiguation of the recognition hypotheses based on word meaning",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L15/1822",
+                      "title": "Parsing for meaning understanding",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L15/183",
+                      "title": "using context dependencies, e.g. language models",
+                      "children": [
+                        {
+                          "symbol": "G10L15/187",
+                          "title": "Phonemic context, e.g. pronunciation rules, phonotactical constraints or phoneme n-grams",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L15/19",
+                          "title": "Grammatical context, e.g. disambiguation of the recognition hypotheses based on word sequence rules",
+                          "children": [
+                            {
+                              "symbol": "G10L15/193",
+                              "title": "Formal grammars, e.g. finite state automata, context free grammars or word networks",
+                              "children": []
+                            },
+                            {
+                              "symbol": "G10L15/197",
+                              "title": "Probabilistic grammars, e.g. word n-grams",
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/20",
+              "title": "Speech recognition techniques specially adapted for robustness in adverse environments, e.g. in noise, of stress induced speech",
+              "children": []
+            },
+            {
+              "symbol": "G10L15/22",
+              "title": "Procedures used during a speech recognition process, e.g. man-machine dialogue",
+              "children": [
+                {
+                  "symbol": "G10L2015/221",
+                  "title": "Announcement of recognition results",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/222",
+                  "title": "Barge in, i.e. overridable guidance for interrupting prompts",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/223",
+                  "title": "Execution procedure of a spoken command",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/225",
+                  "title": "Feedback of the input speech",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2015/226",
+                  "title": "using non-speech characteristics",
+                  "children": [
+                    {
+                      "symbol": "G10L2015/227",
+                      "title": "of the speaker;  Human-factor methodology",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2015/228",
+                      "title": "of application context",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/24",
+              "title": "Speech recognition using non-acoustical features",
+              "children": [
+                {
+                  "symbol": "G10L15/25",
+                  "title": "using position of the lips, movement of the lips or face analysis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L15/26",
+              "title": "Speech to text systems",
+              "children": []
+            },
+            {
+              "symbol": "G10L15/28",
+              "title": "Constructional details of speech recognition systems",
+              "children": [
+                {
+                  "symbol": "G10L15/285",
+                  "title": "Memory allocation or algorithm optimisation to reduce hardware requirements",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/30",
+                  "title": "Distributed recognition, e.g. in client-server systems, for mobile phones or network applications",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/32",
+                  "title": "Multiple recognisers used in sequence or in parallel Score combination systems therefor, e.g. voting systems",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L15/34",
+                  "title": "Adaptation of a single recogniser for parallel processing, e.g. by use of multiple processors or cloud computing",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": "G10L17/00",
+          "title": "Speaker identification or verification techniques",
+          "children": [
+            {
+              "symbol": "G10L17/02",
+              "title": "Preprocessing operations, e.g. segment selection Pattern representation or modelling, e.g. based on linear discriminant analysis [LDA] or principal components Feature selection or extraction",
+              "children": []
+            },
+            {
+              "symbol": "G10L17/04",
+              "title": "Training, enrolment or model building",
+              "children": []
+            },
+            {
+              "symbol": "G10L17/06",
+              "title": "Decision making techniques Pattern matching strategies",
+              "children": [
+                {
+                  "symbol": "G10L17/08",
+                  "title": "Use of distortion metrics or a particular distance between probe pattern and reference templates",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L17/10",
+                  "title": "Multimodal systems, i.e. based on the integration of multiple recognition engines or fusion of expert systems",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L17/12",
+                  "title": "Score normalisation",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L17/14",
+                  "title": "Use of phonemic categorisation or speech recognition prior to speaker recognition or verification",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L17/16",
+              "title": "Hidden Markov models [HMM]",
+              "children": []
+            },
+            {
+              "symbol": "G10L17/18",
+              "title": "Artificial neural networks Connectionist approaches",
+              "children": []
+            },
+            {
+              "symbol": "G10L17/20",
+              "title": "Pattern transformations or operations aimed at increasing system robustness, e.g. against channel noise or different working conditions",
+              "children": []
+            },
+            {
+              "symbol": "G10L17/22",
+              "title": "Interactive procedures Man-machine interfaces",
+              "children": [
+                {
+                  "symbol": "G10L17/24",
+                  "title": "the user being prompted to utter a password or a predefined phrase",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L17/26",
+              "title": "Recognition of special voice characteristics, e.g. for use in lie detectors Recognition of animal voices",
+              "children": []
+            }
+          ]
+        },
+        {
+          "symbol": "G10L19/00",
+          "title": "Speech or audio signals analysis-synthesis techniques for redundancy reduction, e.g. in vocoders Coding or decoding of speech or audio signals, using source filter models or psychoacoustic analysis",
+          "children": [
+            {
+              "symbol": "G10L2019/0001",
+              "title": "Codebooks",
+              "children": [
+                {
+                  "symbol": "G10L2019/0002",
+                  "title": "Codebook adaptations",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2019/0003",
+                  "title": "Backward prediction of gain",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2019/0004",
+                  "title": "Design or structure of the codebook",
+                  "children": [
+                    {
+                      "symbol": "G10L2019/0005",
+                      "title": "Multi-stage vector quantisation",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2019/0006",
+                      "title": "Tree or treillis structures; Delayed decisions",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L2019/0007",
+                  "title": "Codebook element generation",
+                  "children": [
+                    {
+                      "symbol": "G10L2019/0008",
+                      "title": "Algebraic codebooks",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2019/0009",
+                      "title": "Orthogonal codebooks",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2019/001",
+                      "title": "Interpolation of codebook vectors",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L2019/0011",
+                  "title": "Long term prediction filters, i.e. pitch estimation",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2019/0012",
+                  "title": "Smoothing of parameters of the decoder interpolation",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2019/0013",
+                  "title": "Codebook search algorithms",
+                  "children": [
+                    {
+                      "symbol": "G10L2019/0014",
+                      "title": "Selection criteria for distances",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2019/0015",
+                      "title": "Viterbi algorithms",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L2019/0016",
+                  "title": "Codebook for LPC parameters",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L19/0017",
+              "title": "Lossless audio signal coding; Perfect reconstruction of coded audio signal by transmission of coding error",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/0018",
+              "title": "Speech coding using phonetic or linguistical decoding of the source; Reconstruction using text-to-speech synthesis",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/002",
+              "title": "Dynamic bit allocation",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/005",
+              "title": "Correction of errors induced by the transmission channel, if related to the coding algorithm",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/008",
+              "title": "Multichannel audio signal coding or decoding using interchannel correlation to reduce redundancy, e.g. joint-stereo, intensity-coding or matrixing",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/012",
+              "title": "Comfort noise or silence coding",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/018",
+              "title": "Audio watermarking, i.e. embedding inaudible data in the audio signal",
+              "children": []
+            },
+            {
+              "symbol": "G10L19/02",
+              "title": "using spectral analysis, e.g. transform vocoders or subband vocoders",
+              "children": [
+                {
+                  "symbol": "G10L19/0204",
+                  "title": "using subband decomposition",
+                  "children": [
+                    {
+                      "symbol": "G10L19/0208",
+                      "title": "Subband vocoders",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/0212",
+                  "title": "using orthogonal transformation",
+                  "children": [
+                    {
+                      "symbol": "G10L19/0216",
+                      "title": "using wavelet decomposition",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/022",
+                  "title": "Blocking, i.e. grouping of samples in time Choice of analysis windows Overlap factoring",
+                  "children": [
+                    {
+                      "symbol": "G10L19/025",
+                      "title": "Detection of transients or attacks for time/frequency resolution switching",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/028",
+                  "title": "Noise substitution, i.e. substituting non-tonal spectral components by noisy source",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L19/03",
+                  "title": "Spectral prediction for preventing pre-echo Temporary noise shaping [TNS], e.g. in MPEG2 or MPEG4",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L19/032",
+                  "title": "Quantisation or dequantisation of spectral components",
+                  "children": [
+                    {
+                      "symbol": "G10L19/035",
+                      "title": "Scalar quantisation",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/038",
+                      "title": "Vector quantisation, e.g. TwinVQ audio",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L19/04",
+              "title": "using predictive techniques",
+              "children": [
+                {
+                  "symbol": "G10L19/06",
+                  "title": "Determination or coding of the spectral characteristics, e.g. of the short-term prediction coefficients",
+                  "children": [
+                    {
+                      "symbol": "G10L19/07",
+                      "title": "Line spectrum pair [LSP] vocoders",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/08",
+                  "title": "Determination or coding of the excitation function Determination or coding of the long-term prediction parameters",
+                  "children": [
+                    {
+                      "symbol": "G10L19/083",
+                      "title": "the excitation function being an excitation gain",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/087",
+                      "title": "using mixed excitation models, e.g. MELP, MBE, split band LPC or HVXC",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/09",
+                      "title": "Long term prediction, i.e. removing periodical redundancies, e.g. by using adaptive codebook or pitch predictor",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/093",
+                      "title": "using sinusoidal excitation models",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/097",
+                      "title": "using prototype waveform decomposition or prototype waveform interpolative [PWI] coders",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/10",
+                      "title": "the excitation function being a multipulse excitation",
+                      "children": [
+                        {
+                          "symbol": "G10L19/107",
+                          "title": "Sparse pulse excitation, e.g. by using algebraic codebook",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L19/113",
+                          "title": "Regular pulse excitation",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": "G10L19/12",
+                      "title": "the excitation function being a code excitation, e.g. in code excited linear prediction [CELP] vocoders",
+                      "children": [
+                        {
+                          "symbol": "G10L19/125",
+                          "title": "Pitch excitation, e.g. pitch synchronous innovation CELP [PSI-CELP]",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L19/13",
+                          "title": "Residual excited linear prediction [RELP]",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L19/135",
+                          "title": "Vector sum excited linear prediction [VSELP]",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/16",
+                  "title": "Vocoder architecture",
+                  "children": [
+                    {
+                      "symbol": "G10L19/167",
+                      "title": "Audio streaming, i.e. formatting and decoding of an encoded audio signal representation into a data stream for transmission or storage purposes",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/173",
+                      "title": "Transcoding, i.e. converting between two coded representations avoiding cascaded coding-decoding",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L19/18",
+                      "title": "Vocoders using multiple modes",
+                      "children": [
+                        {
+                          "symbol": "G10L19/20",
+                          "title": "using sound class specific coding, hybrid encoders or object based coding",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L19/22",
+                          "title": "Mode decision, i.e. based on audio signal content versus external parameters",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L19/24",
+                          "title": "Variable rate codecs, e.g. for generating different qualities using a scalable representation such as hierarchical encoding or layered encoding",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L19/26",
+                  "title": "Pre-filtering or post-filtering",
+                  "children": [
+                    {
+                      "symbol": "G10L19/265",
+                      "title": "Pre-filtering, e.g. high frequency emphasis prior to encoding",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": "G10L21/00",
+          "title": "Speech or voice signal processing techniques to produce another audible or non-audible signal, e.g. visual or tactile, in order to modify its quality or its intelligibility",
+          "children": [
+            {
+              "symbol": "G10L21/003",
+              "title": "Changing voice quality, e.g. pitch or formants",
+              "children": [
+                {
+                  "symbol": "G10L21/007",
+                  "title": "characterised by the process used",
+                  "children": [
+                    {
+                      "symbol": "G10L21/01",
+                      "title": "Correction of time axis",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/013",
+                      "title": "Adapting to target pitch",
+                      "children": [
+                        {
+                          "symbol": "G10L2021/0135",
+                          "title": "Voice conversion or morphing",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L21/02",
+              "title": "Speech enhancement, e.g. noise reduction or echo cancellation",
+              "children": [
+                {
+                  "symbol": "G10L21/0208",
+                  "title": "Noise filtering",
+                  "children": [
+                    {
+                      "symbol": "G10L2021/02082",
+                      "title": "the noise being echo, reverberation of the speech",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2021/02085",
+                      "title": "Periodic noise",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L2021/02087",
+                      "title": "the noise being separate speech, e.g. cocktail party",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/0216",
+                      "title": "characterised by the method used for estimating noise",
+                      "children": [
+                        {
+                          "symbol": "G10L2021/02161",
+                          "title": "Number of inputs available containing the signal or the noise to be suppressed",
+                          "children": [
+                            {
+                              "symbol": "G10L2021/02163",
+                              "title": "Only one microphone",
+                              "children": []
+                            },
+                            {
+                              "symbol": "G10L2021/02165",
+                              "title": "Two microphones, one receiving mainly the noise signal and the other one mainly the speech signal",
+                              "children": []
+                            },
+                            {
+                              "symbol": "G10L2021/02166",
+                              "title": "Microphone arrays; Beamforming",
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "symbol": "G10L2021/02168",
+                          "title": "the estimation exclusively taking place during speech pauses",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L21/0224",
+                          "title": "Processing in the time domain",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L21/0232",
+                          "title": "Processing in the frequency domain",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": "G10L21/0264",
+                      "title": "characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L21/0272",
+                  "title": "Voice signal separating",
+                  "children": [
+                    {
+                      "symbol": "G10L21/028",
+                      "title": "using properties of sound source",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/0308",
+                      "title": "characterised by the type of parameter measurement, e.g. correlation techniques, zero crossing techniques or predictive techniques",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L21/0316",
+                  "title": "by changing the amplitude",
+                  "children": [
+                    {
+                      "symbol": "G10L21/0324",
+                      "title": "Details of processing therefor",
+                      "children": [
+                        {
+                          "symbol": "G10L21/0332",
+                          "title": "involving modification of waveforms",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L21/034",
+                          "title": "Automatic adjustment",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "symbol": "G10L21/0356",
+                      "title": "for synchronising with other signals, e.g. video signals",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/0364",
+                      "title": "for improving intelligibility",
+                      "children": [
+                        {
+                          "symbol": "G10L2021/03643",
+                          "title": "Diver speech",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L2021/03646",
+                          "title": "Stress or Lombard effect",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L21/038",
+                  "title": "using band spreading techniques",
+                  "children": [
+                    {
+                      "symbol": "G10L21/0388",
+                      "title": "Details of processing therefor",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L21/04",
+              "title": "Time compression or expansion",
+              "children": [
+                {
+                  "symbol": "G10L21/043",
+                  "title": "by changing speed",
+                  "children": [
+                    {
+                      "symbol": "G10L21/045",
+                      "title": "using thinning out or insertion of a waveform",
+                      "children": [
+                        {
+                          "symbol": "G10L21/047",
+                          "title": "characterised by the type of waveform to be thinned out or inserted",
+                          "children": []
+                        },
+                        {
+                          "symbol": "G10L21/049",
+                          "title": "characterised by the interconnection of waveforms",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L21/055",
+                  "title": "for synchronising with other signals, e.g. video signals",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L21/057",
+                  "title": "for improving intelligibility",
+                  "children": [
+                    {
+                      "symbol": "G10L2021/0575",
+                      "title": "Aids for the handicapped in speaking",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "symbol": "G10L21/06",
+              "title": "Transformation of speech into a non-audible representation, e.g. speech visualisation or speech processing for tactile aids",
+              "children": [
+                {
+                  "symbol": "G10L2021/065",
+                  "title": "Aids for the handicapped in understanding",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L21/10",
+                  "title": "Transforming into visible information",
+                  "children": [
+                    {
+                      "symbol": "G10L2021/105",
+                      "title": "Synthesis of the lips movements from speech, e.g. for talking heads",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/12",
+                      "title": "by displaying time domain information",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L21/14",
+                      "title": "by displaying frequency domain information",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L21/16",
+                  "title": "Transforming into a non-visible representation",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L21/18",
+                  "title": "Details of the transformation process",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": "G10L25/00",
+          "title": "Speech or voice analysis techniques not restricted to a single one of groups",
+          "children": [
+            {
+              "symbol": "G10L25/03",
+              "title": "characterised by the type of extracted parameters",
+              "children": [
+                {
+                  "symbol": "G10L25/06",
+                  "title": "the extracted parameters being correlation coefficients",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/09",
+                  "title": "the extracted parameters being zero crossing rates",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/12",
+                  "title": "the extracted parameters being prediction coefficients",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/15",
+                  "title": "the extracted parameters being formant information",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/18",
+                  "title": "the extracted parameters being spectral information of each sub-band",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/21",
+                  "title": "the extracted parameters being power information",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/24",
+                  "title": "the extracted parameters being the cepstrum",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L25/27",
+              "title": "characterised by the analysis technique",
+              "children": [
+                {
+                  "symbol": "G10L25/30",
+                  "title": "using neural networks",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/33",
+                  "title": "using fuzzy logic",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/36",
+                  "title": "using chaos theory",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/39",
+                  "title": "using genetic algorithms",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L25/45",
+              "title": "characterised by the type of analysis window",
+              "children": []
+            },
+            {
+              "symbol": "G10L25/48",
+              "title": "specially adapted for particular use",
+              "children": [
+                {
+                  "symbol": "G10L25/51",
+                  "title": "for comparison or discrimination",
+                  "children": [
+                    {
+                      "symbol": "G10L25/54",
+                      "title": "for retrieval",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L25/57",
+                      "title": "for processing of video signals",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L25/60",
+                      "title": "for measuring the quality of voice signals",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L25/63",
+                      "title": "for estimating an emotional state",
+                      "children": []
+                    },
+                    {
+                      "symbol": "G10L25/66",
+                      "title": "for extracting parameters related to health condition",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L25/69",
+                  "title": "for evaluating synthetic or decoded voice signals",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/72",
+                  "title": "for transmitting results of analysis",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L25/75",
+              "title": "for modelling vocal tract parameters",
+              "children": []
+            },
+            {
+              "symbol": "G10L25/78",
+              "title": "Detection of presence or absence of voice signals",
+              "children": [
+                {
+                  "symbol": "G10L2025/783",
+                  "title": "based on threshold decision",
+                  "children": [
+                    {
+                      "symbol": "G10L2025/786",
+                      "title": "Adaptive threshold",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "symbol": "G10L25/81",
+                  "title": "for discriminating voice from music",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/84",
+                  "title": "for discriminating voice from noise",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L25/87",
+                  "title": "Detection of discrete points within a voice signal",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L25/90",
+              "title": "Pitch determination of speech signals",
+              "children": [
+                {
+                  "symbol": "G10L2025/903",
+                  "title": "using a laryngograph",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2025/906",
+                  "title": "Pitch tracking",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "symbol": "G10L25/93",
+              "title": "Discriminating between voiced and unvoiced parts of speech signals",
+              "children": [
+                {
+                  "symbol": "G10L2025/932",
+                  "title": "Decision in previous or following frames",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2025/935",
+                  "title": "Mixed voiced class; Transitions",
+                  "children": []
+                },
+                {
+                  "symbol": "G10L2025/937",
+                  "title": "Signal energy in various frequency bands",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "symbol": "G10L99/00",
+          "title": "Subject matter not provided for in other groups of this subclass",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
