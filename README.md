@@ -1,5 +1,9 @@
 # G10L CPC Classification Expanded Definitions
 
+## Disclaimer
+
+This repository is maintained by individuals acting in their personal capacities. Any affiliation of the maintainers with CODE (a voluntary organization of USPTO employees) should not be construed as the USPTO's approval or endorsement of the repository's contents or purposes. No nonpublic information is disclosed.
+
 This project processes the G10L CPC (Cooperative Patent Classification) hierarchy, converts it from XML to JSON format, generates expanded definitions for each category using the Claude AI model, and creates an interactive HTML view of the results.
 
 ## Description
