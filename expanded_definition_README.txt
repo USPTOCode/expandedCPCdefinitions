@@ -2,6 +2,10 @@
 
 This project processes the G10L CPC (Cooperative Patent Classification) hierarchy, converts it from XML to JSON format, and generates expanded definitions for each category using the Claude AI model.
 
+## Disclaimer
+
+This repository is maintained by individuals acting in their personal capacities. Any affiliation of the maintainers with CODE (a voluntary organization of USPTO employees) should not be construed as the USPTO's approval or endorsement of the repository's contents or purposes. No nonpublic information is disclosed.
+
 ## Description
 
 This project consists of two main components:
